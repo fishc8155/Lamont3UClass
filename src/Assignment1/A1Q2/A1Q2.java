@@ -37,7 +37,7 @@ public class A1Q2 {
       
        // move to thing
         cole.move();
-        // have karel pick up the thing
+        // have cole pick up the thing
         cole.pickThing();
 
       
