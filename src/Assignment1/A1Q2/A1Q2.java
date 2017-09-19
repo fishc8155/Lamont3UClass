@@ -35,11 +35,35 @@ public class A1Q2 {
       // create a thing to interact 
       new Thing (cambridge,3,2);
       
-       // move to thing
-        cole.move();
-        // have cole pick up the thing
-        cole.pickThing();
-
+    // move to thing
+      cole.turnLeft();
+      cole.turnLeft();
+      cole.turnLeft();
+      cole.move();
+      cole.turnLeft();
+      cole.move();
+      cole.turnLeft();
+      cole.move();
+      // pick thing up
+      cole.pickThing();
+      // move back to starting position
+      cole.turnLeft();
+      cole.turnLeft();
+      cole.move();
+      cole.turnLeft();
+      cole.turnLeft();
+      cole.turnLeft();
+      cole.move();
+      cole.turnLeft();
+      cole.turnLeft();
+      cole.turnLeft();
+      cole.move();
+      cole.turnLeft();
+      cole.turnLeft();
+      cole.turnLeft();
+      // have cole drop thing'
+      cole.putThing();
+   
       
       
       
