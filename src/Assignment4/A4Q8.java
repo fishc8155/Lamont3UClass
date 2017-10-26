@@ -52,6 +52,7 @@ public class A4Q8 extends javax.swing.JFrame {
         jLabel1.setText("Enter Name");
 
         helloBox.setEditable(false);
+        helloBox.setBackground(new java.awt.Color(24, 240, 120));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

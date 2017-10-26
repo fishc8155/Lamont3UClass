@@ -120,7 +120,7 @@ public class A4Q10 extends javax.swing.JFrame {
     private void CActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CActionPerformed
     String cConvert = CDegree.getText();
     double cDegree = Integer.parseInt(cConvert);
-    double cAnswer = CDegree * 1.8 + 32;
+    double cAnswer = (cDegree + 32) * 1.8;
     FDegree.setText(""+cConvert);
     
     }//GEN-LAST:event_CActionPerformed
