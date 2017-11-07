@@ -11,8 +11,8 @@ import java.util.Scanner;
  * @author fishc8155
  */
 public class Dub {
-    static boolean isVowel(char v){
-        if(v == 'a'||v == 'e'||v == 'i'||v == 'o'||v == 'u'){
+    static boolean isVowel(char i){
+        if(i == 'a'||i == 'e'||i == 'i'||i == 'o'||i == 'u'){
             return true;
         }
         return false;
